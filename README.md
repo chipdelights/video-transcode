@@ -1,4 +1,4 @@
-#Minimalistic Video Transcoding
+# Minimalistic Video Transcoding
 
 This is an attempt to implement the minimalistic transcoding in golang, The job is submitted to the api endpoint where the POST parameters
 contain the input file and desired output format, where the api returns the job_id is returned for calback and the job is processed 
@@ -7,13 +7,13 @@ to transcode the videos to HLS in this implementation
 
 ## Technologies Used
 
-[ Programming Language - go-1.11.1 ](https://dl.google.com/go/go1.11.1.darwin-amd64.pkg)
-[ Distributed Task Queue - RabbitMQ ](http://www.rabbitmq.com/install-homebrew.html)
-[ Jobs State - MySQL ](https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.12-macos10.13-x86_64.dmg)
-[ ffmpeg - To Transocde ](https://evermeet.cx/ffmpeg/ffmpeg-4.0.2.dmg)
-[ Machinery - Asynchronous Processing ](https://github.com/RichardKnop/machinery)
-[ Gorilla Mux - HTTP Router ](https://github.com/gorilla/mux)
-[ gorm - Struct to Table Mapper ](https://github.com/jinzhu/gorm)
+* [ Programming Language - go-1.11.1 ](https://dl.google.com/go/go1.11.1.darwin-amd64.pkg)
+* [ Distributed Task Queue - RabbitMQ ](http://www.rabbitmq.com/install-homebrew.html)
+* [ Jobs State - MySQL ](https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.12-macos10.13-x86_64.dmg)
+* [ ffmpeg - To Transocde ](https://evermeet.cx/ffmpeg/ffmpeg-4.0.2.dmg)
+* [ Machinery - Asynchronous Processing ](https://github.com/RichardKnop/machinery)
+* [ Gorilla Mux - HTTP Router ](https://github.com/gorilla/mux)
+* [ gorm - Struct to Table Mapper ](https://github.com/jinzhu/gorm)
 
 ## API Usage
 
